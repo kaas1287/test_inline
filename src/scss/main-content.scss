@@ -1,0 +1,123 @@
+.reviews-content__batton {
+    display: block;
+    height: 20px;
+    width: 184px;
+    background-color: #429F3A;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.reviews-content {
+    display: none;
+    color: #444444;
+    
+}
+
+
+.from-content__deskription {
+    color: #444444;
+}
+.from-content__made {
+    color: #444444;
+    font-size: 15px;
+    font-weight: bold;
+    img {
+        width: 100%;
+        height: 100%;
+        min-width: 336px;
+        min-height: 295px;
+    } 
+}
+.from-content__footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    justify-content: center;
+    button {
+        width: 165px;
+        height: 35px;
+        margin-right: 12px;
+        border: 0.5px solid #043E44;
+        color: #043E44;
+    }
+}
+.content__deskription {
+    color: #444444;
+    
+}
+@media (min-width: 768px) {
+    .content__deskription {
+        p {
+            display: block;
+        }
+        br {
+            display: none;
+        }
+        
+    }
+    .specifications {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .specifications__items {
+        min-width: 320px;
+        width: 45%;
+        max-width: 490px;
+        padding-left: 25px;
+    }
+    .reviews-content__batton {
+        margin-left: 0;
+    }
+    .reviews-content {
+        p {
+            display: inline-block;
+            max-width: 500px;
+        }
+    }
+    .from-content__deskription {
+        width: 50%;
+        margin-right: 10%;
+        p {
+            display: inline-block;
+        }
+        br {
+            display: none;
+        }
+    }
+    .from-content {
+        display: none;
+        margin-top: 25px;
+    }
+    .from-content__wrap_media768 {
+        width: 40%;
+        max-width:390px ;
+        img {
+            max-width: 380px;
+            max-height: 270px;
+        }
+        h2 {
+            display: none;
+        }
+    }
+    .from-content__footer {
+        button {
+            border: 0.5px solid #444444;
+            color: #444444;
+            margin-top: 0;
+            border-radius: 5px;
+            background-color: white;
+        }
+    }
+    .from-content__wrap_media390 {
+        display: flex;
+    }
+}

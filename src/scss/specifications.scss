@@ -1,0 +1,20 @@
+.specifications {
+    padding-top: 20px;
+}
+.specifications__items{
+    margin-bottom: 26px;
+    h2 {
+        color: #444444;
+        font-weight: 600;
+        font-size: 15px;
+        
+    }
+    div {
+        color: #454343;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        border-bottom: 0.5px solid #B2B2B2;
+    }
+}

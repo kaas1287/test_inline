@@ -1,0 +1,27 @@
+$border-color: #B2B2B2;
+.header-main {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $border-color;
+    height: 10px;
+    padding: 16px;
+}
+.header-main__items {
+    margin-right: 5%;
+    height: 22px;
+}
+.header-main__items:first-child {
+    border-bottom: 4px solid green;
+}
+
+
+@media (min-width: 768px) {
+    .header-main__items {
+        margin-right: 100px;
+        height: 40px;
+    }
+    .header-main {
+        height: 30px;
+        padding: 16px;
+    }
+}

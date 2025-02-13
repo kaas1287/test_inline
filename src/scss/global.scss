@@ -1,0 +1,17 @@
+
+@font-face { 
+    font-family: "MontserratThin";
+    src: url("../fonts/MontserratThin/MontserratThin.eot");
+    src: url("../fonts/MontserratThin/MontserratThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MontserratThin/MontserratThin.woff") format("woff"),
+    url("../fonts/MontserratThin/MontserratThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    font-family: "MontserratThin";
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
