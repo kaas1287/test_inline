@@ -11,6 +11,11 @@ body {
   padding-left: 20px;
   padding-right: 20px; }
 
+@media (min-width: 768px) {
+  body {
+    padding-left: 15%;
+    padding-right: 15%; } }
+
 .header-main {
   display: flex;
   justify-content: center;
@@ -208,6 +213,8 @@ body {
   font-weight: bold; }
 
 @media (min-width: 768px) {
+  .swiper_media768 {
+    display: block; }
   .swiper {
     display: none; }
   .swiper__head_media768 {
